@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5447adaecd.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary" href="index.html">Aligator</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa-solid fa-bars" style="font-size: 2rem;"></span>
+            </button>
+            <div class="collapse flex-row-reverse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Principal</a>
+                    <a class="nav-link" href="#about-us">Sobre nosotros</a>
+                    <a class="nav-link" href="#precios">Precios</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img class="carousel-image" src="./img/dannie-jing-3GZlhROZIQg-unsplash.jpg" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img class="carousel-image" src="./img/ashley-byrd-q6aHu5Wc1IM-unsplash.jpg" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-image" src="./img/jurre-houtkamp-610ZXDQRt0Y-unsplash.jpg" class="d-block w-100"
+                    alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container" id="about-us">
+        <div class="row justify-content-between">
+            <h2 class="about-title">Te contamos mas sobre nosotros</h2>
+            <div id="about" class="card col-12 col-md-2" style="width: 320px;">
+                <h2 class="about-title">Sobre Nosotros</h2>
+                <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus qui, quo
+                    vero
+                    accusamus esse impedit
+                    libero. Fugit nulla eligendi repellat expedita optio quasi suscipit ex dolorum, ullam corrupti odio
+                    nihil
+                    beatae illum obcaecati! Harum illo, quisquam quas voluptas voluptatem et.</p>
+            </div>
+
+            <div id="vision" class="card col-12 col-md-2" style="width: 320px;">
+                <h2 class="about-title">Visión</h2>
+                <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus qui, quo
+                    vero
+                    accusamus esse impedit
+                    libero. Fugit nulla eligendi repellat expedita optio quasi suscipit ex dolorum, ullam corrupti odio
+                    nihil
+                    beatae illum obcaecati! Harum illo, quisquam quas voluptas voluptatem et.</p>
+            </div>
+
+            <div id="mision" class="card col-12 col-md-2" style="width: 320px;">
+                <h2 class="about-title">Misión</h2>
+                <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus qui, quo
+                    vero
+                    accusamus esse impedit
+                    libero. Fugit nulla eligendi repellat expedita optio quasi suscipit ex dolorum, ullam corrupti odio
+                    nihil
+                    beatae illum obcaecati! Harum illo, quisquam quas voluptas voluptatem et.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="precios container" id="precios">
+        <h2 class="about-title">Tenemos variedad de Aromas</h2>
+        <div class="container text-center">
+            <div class="row justify-content-between">
+                <div class="card col-12 col-md-2" style="width: 320px;">
+                    <img src="./img/joyce-toh-3PdHzNqMYbA-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lavanda</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card col-12 col-md-2" style="width: 320px;">
+                    <img src="./img/steve-doig-FaMBWkmvPyY-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Limón</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card col-12 col-md-2" style="width: 320px;">
+                    <img src="./img/ioann-mark-kuznietsov-eHlVZcSrjfg-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Floral</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card col-12 col-md-2" style="width: 320px;">
+                    <img src="./img/jonathan-borba-CgWTqYxHEkg-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bebé</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container contacto" id="contacto">
+        <h2 class="about-title">Contáctanos</h2>
+        <div class="row justify-content-between links">
+            <a href="" class="ico-cont col-2"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="" class="ico-cont col-2"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="" class="ico-cont col-2"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
